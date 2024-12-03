@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char op;
+    cout<<"please enter operator ";
+    cin>>op;
+    cout<<"please enter number ";
+    float num1,num2;
+    cin>>num1>>num2;
+switch (op) {
+  case '+':
+    cout <<num1<<'+'<<num2<<'='<<num1+num2;
+    break;
+    case '-':
+    cout <<num1<<'-'<<num2<<'='<<num1-num2;
+    break;
+    case '*':
+    cout <<num1<<'*'<<num2<<'='<<num1*num2;
+    break;
+    case '/':
+    cout <<num1<<'/'<<num2<<'='<<num1/num2;
+    break;
+    default :
+    cout<<"erorr";
+    break;
+}
+    return 0;
+}
